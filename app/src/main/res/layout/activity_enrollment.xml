@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTotalCredits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Credits: 0"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <ListView
+        android:id="@+id/lvSubjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnEnroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enroll" />
+
+    <Button
+        android:id="@+id/btnViewSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Summary"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

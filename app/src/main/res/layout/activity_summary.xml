@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvStudentInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Information"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <ListView
+        android:id="@+id/lvEnrolledSubjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTotalCredits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Credits: 0"
+        android:textSize="18sp"
+        android:padding="8dp" />
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
